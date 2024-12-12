@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="1" skipped="1" tests="10" time="0.541" timestamp="2024-12-09T14:21:51.158742+05:30" hostname="L-INE-5DCYCL3"><testcase classname="test_3" name="test_res" time="0.001" /><testcase classname="test_3" name="test_reass" time="0.001" /><testcase classname="test_demo" name="test_add" time="0.000" /><testcase classname="test_demo" name="test_subtract" time="0.000" /><testcase classname="test_demo" name="test_mul" time="0.001"><failure message="assert np.float64(5.0) == 9&#10; +  where np.float64(5.0) = divide(10, 2)">@pytest.mark.div
+    def test_mul():
+&gt;       assert divide(10, 2) == 9
+E       assert np.float64(5.0) == 9
+E        +  where np.float64(5.0) = divide(10, 2)
+
+test_demo.py:20: AssertionError</failure></testcase><testcase classname="test_demo" name="test_example" time="0.001" /><testcase classname="test_demo" name="test_given" time="0.000"><error message="failed on setup with &quot;OSError: pytest: reading from stdin while output is captured!  Consider using `-s`.&quot;">@pytest.fixture
+    def getData():
+&gt;       name = input("Enter the entary name: ")
+E       OSError: pytest: reading from stdin while output is captured!  Consider using `-s`.
+
+conftest.py:15: OSError</error></testcase><testcase classname="test_math_operations" name="test_add" time="0.000"><skipped type="pytest.skip" message="my wish">C:\Users\vgajula\PycharmProjects\pythonProject\src\test_math_operations.py:7: my wish</skipped></testcase><testcase classname="test_math_operations" name="test_subtract" time="0.001" /><testcase classname="test_math_operations" name="test_mul" time="0.000" /></testsuite></testsuites>
